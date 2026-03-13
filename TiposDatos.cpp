@@ -5,15 +5,49 @@ using namespace std;
 
 int main () {
 
-    int num_entero = 5;
-    float flotante = 15.26;
-    double num_double = 16.254857;
-    char letra = 'a';
+    /*
+        int x; // Declaración
+        x = 5 // Asignación
+    */
 
-    cout << num_entero << endl;
-    cout << flotante << endl;
-    cout << num_double << endl;
-    cout << letra;
+    // Números Enteros
+    int x = 5;
+    int y = 6;
+    int suma = x + y;
+    int edad = 20;
+    int año = 2026;
+    int dias = 24;
+
+    cout << suma << endl;
+
+    // Números Flotantes y Double
+
+    float precio = 10.90;
+    double promedio = 25.36545;
+    double temperatura = 36.152;
+
+    cout << promedio << endl;
+
+    // Char
+
+    char calificacion = 'A';
+    char inicial = 'j';
+
+    cout << inicial << endl;
+
+    // Booleanos
+
+    bool estudiante = false;
+    bool encendido = true;
+
+    cout << encendido << endl;
+    cout << estudiante << endl;
+
+    // String o cadenas
+
+    string nombre = "Jose";
+
+    cout << "Hola " << nombre;
 
     return 0;
 }
